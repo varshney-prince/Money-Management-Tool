@@ -1,0 +1,23 @@
+# Dependency Directories
+node_modules/
+package-lock.json
+
+# Personal Data / Excel Store
+moneydash.xlsx
+*.xlsx
+*.xls
+
+# AI Planning & Workspace Artifacts
+.planning/
+top_level_symbols.txt
+init.json
+
+# Temporary Scripts
+split.js
+migrate.js
+reorg.js
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini

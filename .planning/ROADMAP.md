@@ -11,3 +11,12 @@
 4. UI renders correctly (no broken layouts).
 5. All buttons and interactive elements work as expected (no broken `onclick` handlers).
 6. File System Access API can successfully save `moneydash.xlsx` and localStorage correctly saves preferences.
+
+## Phase 2: Feature-Based Architecture
+**Goal**: Migrate all logic to modular JavaScript without breaking existing flows.
+**Requirements**: MOD-01, MOD-02, MOD-03
+
+**Success criteria**:
+1. pp.js split into core/ and eatures/.
+2. Global namespace cleanly encapsulated.
+3. All inline HTML elements replaced with ddEventListener.
