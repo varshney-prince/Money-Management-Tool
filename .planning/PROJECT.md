@@ -22,15 +22,14 @@ Users can manage their personal finances securely through a fast, fully client-s
 - ✓ Investment growth simulator — existing
 - ✓ Loan and collateral tracking — existing
 - ✓ Single page application with tabbed navigation — existing
+- ✓ Extract all CSS from `moneydash-final.html` into a new `style.css` file — Validated in Phase 1: Modular File Decomposition
+- ✓ Extract all JavaScript from `moneydash-final.html` into a new `app.js` file — Validated in Phase 1: Modular File Decomposition
+- ✓ Create a clean `index.html` that links the new CSS and JS files — Validated in Phase 1: Modular File Decomposition
+- ✓ Validate that all interconnected logic, DOM manipulation, charts, and file persistence work perfectly with the split files — Validated in Phase 1: Modular File Decomposition
 
 ### Active
 
 <!-- Current scope. Building toward these. -->
-
-- [ ] Extract all CSS from `moneydash-final.html` into a new `style.css` file
-- [ ] Extract all JavaScript from `moneydash-final.html` into a new `app.js` file
-- [ ] Create a clean `index.html` that links the new CSS and JS files
-- [ ] Validate that all interconnected logic, DOM manipulation, charts, and file persistence work perfectly with the split files
 
 ### Out of Scope
 
@@ -74,3 +73,5 @@ This document evolves at phase transitions and milestone boundaries.
 2. Core Value check — still the right priority?
 3. Audit Out of Scope — reasons still valid?
 4. Update Context with current state
+
+Last updated: 2026-04-02
